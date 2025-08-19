@@ -1,0 +1,866 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Codexave",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/thanksfortoday.studio",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/homepage\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Projects",
+            "screenshot": "screenshots\/projects.jpg",
+            "source": "templates\/projects.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/work\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Detail Projects",
+            "screenshot": "screenshots\/detail-projects.jpg",
+            "source": "templates\/detail-projects.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/detail-projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service",
+            "screenshot": "screenshots\/service.jpg",
+            "source": "templates\/service.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Process",
+            "screenshot": "screenshots\/process.jpg",
+            "source": "templates\/process.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/process\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Detail Blog",
+            "screenshot": "screenshots\/detail-blog.jpg",
+            "source": "templates\/detail-blog.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/detail-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Contact",
+            "screenshot": "screenshots\/form-contact.jpg",
+            "source": "templates\/form-contact.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/form-contact\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Email",
+            "screenshot": "screenshots\/form-email.jpg",
+            "source": "templates\/form-email.json",
+            "preview_url": "https:\/\/thanksfortoday.studio\/codexave\/template-kit\/form-email\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.6.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Ultimate Addons for Elementor Lite",
+            "version": "2.4.8",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force"
+        },
+        {
+            "name": "MetForm",
+            "version": "4.0.3",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.31.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.14",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Hero1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Hero1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 231735,
+            "dimensions": [
+                1198,
+                800
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Black.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Black.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 7639,
+            "dimensions": [
+                437,
+                108
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Lee.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Lee-800x939.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 145728,
+            "dimensions": [
+                1022,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Orbit-Metrics-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Orbit-Metrics-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 188879,
+            "dimensions": [
+                1798,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Orbit.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Orbit-800x311.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 13414,
+            "dimensions": [
+                954,
+                371
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Arkline-Code-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Arkline-Code-1-800x544.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 168240,
+            "dimensions": [
+                1766,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Arkline.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Arkline-800x325.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 14187,
+            "dimensions": [
+                907,
+                369
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Core-Link-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Core-Link-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 155969,
+            "dimensions": [
+                1800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Core.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Core.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 7583,
+            "dimensions": [
+                669,
+                330
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Web-Dev.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Web-Dev-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 185906,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "App-Dev.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/App-Dev-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 206409,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Data-Analyst.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Data-Analyst-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 173949,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "SEO.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/SEO-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 232796,
+            "dimensions": [
+                2098,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "UX-Research.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/UX-Research-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 232347,
+            "dimensions": [
+                2311,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "DevOps-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/DevOps-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 187778,
+            "dimensions": [
+                2251,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Image-Testi.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Image-Testi-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 170055,
+            "dimensions": [
+                1000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Kai-2.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Kai-2-800x939.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 116724,
+            "dimensions": [
+                1022,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Kim-3.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Kim-3-800x939.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 147016,
+            "dimensions": [
+                1022,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Codera-Portal-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Codera-Portal-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 210471,
+            "dimensions": [
+                1800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Codera.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Codera-800x310.png",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 15086,
+            "dimensions": [
+                989,
+                383
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Prompt-Site-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Prompt-Site-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 224590,
+            "dimensions": [
+                1798,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Prompt.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Prompt-800x295.png",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 13028,
+            "dimensions": [
+                981,
+                362
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Blog-1.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Blog-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 124645,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Blog-3.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Blog-3-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/detail-projects.json",
+                    "name": "Detail Projects"
+                }
+            ],
+            "filesize": 242714,
+            "dimensions": [
+                2251,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Research.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Research-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/process.json",
+                    "name": "Process"
+                }
+            ],
+            "filesize": 177576,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Development.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Development-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/process.json",
+                    "name": "Process"
+                }
+            ],
+            "filesize": 146462,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Testing.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Testing-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/process.json",
+                    "name": "Process"
+                }
+            ],
+            "filesize": 209397,
+            "dimensions": [
+                2251,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Deploy.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Deploy-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/process.json",
+                    "name": "Process"
+                }
+            ],
+            "filesize": 193673,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Optimization.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Optimization-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/process.json",
+                    "name": "Process"
+                }
+            ],
+            "filesize": 225125,
+            "dimensions": [
+                2251,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Blog-4.jpg",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Blog-4-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/detail-blog.json",
+                    "name": "Detail Blog"
+                }
+            ],
+            "filesize": 227419,
+            "dimensions": [
+                2250,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/2BP9CJQUTD?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Black-Big.png",
+            "thumbnail_url": "https:\/\/thanksfortoday.studio\/codexave\/wp-content\/uploads\/sites\/66\/2025\/07\/Logo-Black-Big.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 12482,
+            "dimensions": [
+                686,
+                173
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        }
+    ]
+}
